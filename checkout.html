@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="stylecheckout.css">
+    <title>HAZEM ALKATEB || Checkout</title>
+</head>
+<body>
+<!--
+    ==========================================================
+                        START NAVBAR
+-->
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container">
+    <a class="navbar-brand" href="index.html">Hazem Alkateb</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>  
+        <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="shop.html">Shop</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Catalogue</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">New Arrivals</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" value="">                    
+        </form>
+    </div>
+</div>
+</nav>
+<!--
+==========================================================
+                END NAVBAR
+-->
+<!--
+==========================================================
+                    Start header
+-->
+<header>
+    <div class="container">
+        <div class="row">
+            <div>
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <a href="cart.html">Cart</a>
+                <span>/</span>
+                <strong>Checkout</strong>
+            </div>
+        </div>
+    </div>
+</header>
+<!--
+==========================================================
+                    End header
+-->
+<section class="section1">
+    <div class="container">
+        <div class="row r1">
+            <div class="customer col-lg-12 col-md-12 col-sm-12">
+                <div>
+                    Returning customer?
+                    <a href="#">Click here</a>
+                    to login
+                </div>
+            </div>
+        </div>
+        <div class="row r2">
+            <div class="billing col-lg-6 col-md-6 col-sm-12">
+                <div class="title">
+                    <h3>Billing Details</h3>
+                </div>
+                <div class="all">
+                    <form class="needs-validation" novalidate>
+                        <div class="form-row">
+                          <div class="col-md-6 mb-3">
+                            <label for="validationTooltip01">First name</label>
+                            <input type="text" class="form-control" id="validationTooltip01" value="" required>
+                            <div class="valid-tooltip">
+                              Looks good!
+                            </div>
+                          </div>
+                          <div class="col-md-6 mb-3">
+                            <label for="validationTooltip02">Last name</label>
+                            <input type="text" class="form-control" id="validationTooltip02" value="" required>
+                            <div class="valid-tooltip">
+                              Looks good!
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-row">
+                          <div class="col-md-6 mb-3">
+                            <label for="validationTooltip03">Country</label>
+                            <select class="custom-select" id="validationTooltip03" required>
+                                <option selected value="">Choose...</option>
+                                <option value="1">USA</option>
+                                <option value="2">UAE</option>
+                                <option value="3">Palestine</option>
+                                <option value="4">Egypt</option>
+                                <option value="5">Saudi Arabia</option>
+                                <option value="6">Syria</option>
+                                <option value="7">Libya</option>
+                                <option value="8">Qatar</option>
+                            </select>
+                            <div class="invalid-tooltip">
+                              Please provide a valid city.
+                            </div>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                            <label for="validationTooltip04">State</label>
+                            <input type="text" class="form-control" id="validationTooltip04" required>
+                            <div class="invalid-tooltip">
+                              Please select a valid state.
+                            </div>
+                            </div>
+                            <div class="col-md-3 mb-3">
+                            <label for="validationTooltip05">Zip</label>
+                            <input type="text" class="form-control" id="validationTooltip05" required>
+                            <div class="invalid-tooltip">
+                              Please provide a valid zip.
+                            </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                            <label for="validationTooltip01">Email Address</label>
+                            <input type="email" class="form-control" id="validationTooltip01" value="" required>
+                            <div class="valid-tooltip">
+                              Looks good!
+                            </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                            <label for="validationTooltip02">Phone</label>
+                            <input type="text" class="form-control" id="validationTooltip02" value="" required placeholder="Phone Number">
+                            <div class="valid-tooltip">
+                              Looks good!
+                            </div>
+                            </div>
+                            <div class="mb-3 col-lg-12 col-md-12 col-sm-12">
+                            <label for="validationTextarea">Order Notes</label>
+                            <textarea class="form-control" id="validationTextarea" placeholder="Write your notes here..."></textarea>
+                            </div>
+                        </div>
+                      </form>
+                </div>
+            </div>
+            <div class="coupon-link col-lg-5 col-md-5 col-sm-12">
+                <div class="title">
+                    <h3>Coupon Code</h3>
+                </div>
+                <div class="coupon">
+                    <p>Enter your coupon code if you have one.</p>
+                    <div class="text">
+                    <input type="text" name="coupon" value="" placeholder="Coupon Code">
+                    <a href="#">APPLY COUPON</a>
+                    </div>
+                </div>
+                <div class="title">
+                    <h3>Your Order</h3>
+                </div>
+                <div class="total">
+                    <div class="flex">
+                        <div>
+                            <h6>Product</h6>
+                        </div>
+                        <div>
+                            <h6>Total</h6>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="flex">
+                        <div>
+                            <span>Top Up T-Shirt x 1</span>
+                        </div>
+                        <div>
+                            <span>$250.00</span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="flex">
+                        <div>
+                            <span>Polo Shirt x 1</span>
+                        </div>
+                        <div>
+                            <span>$100.00</span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="flex">
+                        <div>
+                            <h6>Cart Subtotal</h6>
+                        </div>
+                        <div>
+                            <span>$350.00</span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="flex">
+                        <div>
+                            <h6>Order Total</h6>
+                        </div>
+                        <div>
+                            <h6>$350.00</h6>
+                        </div>
+                    </div>
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                          <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Direct Bank Transfer
+                              </button>
+                            </h2>
+                          </div>
+                      
+                          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Cheque Payment
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Paypal
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="send col-lg-12">
+                            <a href="thankyou.html">PLACE ORDER</a>
+                        </div>
+                      </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+    <hr>
+<!--
+==========================================================
+                    Start footer
+-->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="div1 col-lg-5 col-md-7 col-sm-12">
+                <h4>Navigations</h4>
+                <div class="div1-ul">
+                    <ul type="none">
+                        <li><a href="#">Sell online</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Shopping cart</a></li>
+                        <li><a href="#">Store builder</a></li>
+                    </ul>
+                    <ul type="none">
+                        <li><a href="#">Mobile commerce</a></li>
+                        <li><a href="#">Dropshipping</a></li>
+                        <li><a href="#">Website development</a></li>
+                    </ul>
+                    <ul type="none">
+                        <li><a href="#">Point of sale</a></li>
+                        <li><a href="#">Hardware</a></li>
+                        <li><a href="#">Software</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="div2 col-lg-3 col-md-4 col-sm-12">
+                <h4>Promo</h4>
+                <div>
+                    <a href="#"><img src="hero_1.jpg" width="100%"></a>
+                </div>
+                <div>
+                    <a href="#" class="under-img">Finding Your Perfect Shoes</a>
+                    <p>Promo from nuary 15 — 25, 2019</p>
+                </div>
+            </div>
+            <div class="div3 col-lg-3 col-md-4 col-sm-12">
+                <h4>Contact Info</h4>
+                <div class="div3-con">
+                <p>Address: AlRemal St. Gaza , Gaza , Palestine</p>
+                <p>Tel: <a href="#">+970 59 5100 360</a></p> 
+                <p id="email">Email: hazem22-1@hotmail.com</p>
+                </div>
+                <div class="div3-sub">
+                    <h4>Subscribe</h4>
+                    <input type="email" value="" placeholder="Email" class="email" required>
+                    <input type="submit" value="SEND" name="SEND" class="submit">
+                </div>
+            </div>
+        </div>
+        <div class="row r2">
+            <div style="text-align: center;">
+                <p>Copyright ©2021 All rights reserved | This template is made with LOVE by <a href="#">HAZEM AlKATEB</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--
+==========================================================
+                    End footer
+-->
+<script src="jquery-3.5.1.slim.min.js"></script>
+<script src="popper.min.js"></script>
+<script src="bootstrap.min.js"></script>
+</body>
+</html>

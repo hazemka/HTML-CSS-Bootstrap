@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* ==========================================================
+                        START NAVBAR                */
+.navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    padding: 15px 30px;
+    box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+}
+.navbar .navbar-brand{
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 18px;
+    text-transform: uppercase ;
+}
+.navbar-nav .nav-item .nav-link{
+    text-transform: uppercase;
+    color: black;
+    font-size: 15px;
+    margin-right: 5px;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: blue;
+}
+/* ==========================================================
+                            END NAVBAR                  */
+/* ==========================================================
+                            Start header                  */
+header{
+    background-color: rgba(245, 245, 245, 0.678);
+    margin-top: 70px;
+    padding: 20px 0;
+}
+header .container .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0px;
+}
+header .container .row strong{
+    font-weight: 500;
+}
+header .container .row span{
+    color: rgb(194, 175, 175);
+}
+header .container .row a{
+    text-decoration: none;
+}
+/* ==========================================================
+                                End header                  */
+/* ==========================================================
+                               Start section                 */
+section .container .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    margin-bottom: 50px;
+}
+section .container .row .billing{
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+section .container .row .billing .title{
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+section .container .row .all{
+    border: 2px solid rgb(222, 226, 230) ;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 40px;
+}
+section .container .row .form-row div{
+    margin-left: 0;
+    margin-right: 0;
+    border: none;
+    margin: 7px 0;
+}
+section .container .row .form-row label{
+    font-weight: 400;
+    font-size: 17px;
+}
+section .container .row .title h3{
+    font-weight: 400;
+}
+section .container .row .all .link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+section .container .row .all div a{
+    background-color: rgb(121, 113, 234);
+    color: white;
+    width: 100%;
+    padding: 10px 0px;
+    text-decoration: none;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+section .container .row .all div a:hover{
+    background-color: rgba(0, 0, 255, 0.705);
+    box-shadow: 0 5px 10px rgba(25, 25, 25, 0.308);
+}
+section .container .row .divs{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0;
+    padding: 0;
+}
+section .container .row .divs div{
+    border: 2px solid rgb(222, 226, 230);
+    padding: 10px 20px;
+    margin-top: 15px;
+    margin-left: 0;
+    margin-right: 0;
+}
+section .container .row .divs div span{
+    color: rgb(121, 113, 234);
+} 
+section .container .row .divs div p{
+    color: rgb(140, 146, 153);
+} 
+/* ==========================================================
+                                End section                */ 
+/*==========================================================
+                            Start FOOter               */
+.footer{
+    padding-bottom: 20px;
+}
+.footer .container .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .container .row .div1 .div1-ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .container .row .div2{
+    margin-top: 35px;
+}
+.footer .container .row .div3{
+    margin-top: 130px;
+}
+.footer .container .row a{
+    text-decoration: none;
+}
+.footer .container .row h4{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.footer .container .row .div1 .div1-ul a{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.61);
+}
+.footer .container .row .div1 .div1-ul a:hover{
+    color: rgba(0, 0, 255, 0.671);
+}
+.footer .container .row .div1 .div1-ul li{
+    margin-bottom: 15px;
+}
+.footer .container .row .div2 img{
+    margin-bottom: 20px;
+}
+.footer .container .row .div2 p{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.61);
+}
+.footer .container .row .div3 .div3-con #email{
+    margin-top: 15px;
+}
+.footer .container .row .div3 .div3-con a{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.61);
+}
+.footer .container .row .div3-con a:hover{
+    color: rgba(0, 0, 255, 0.671);
+}
+.footer .container .row .div3-con p{
+    font-size: 15px;
+}
+.footer .container .row .div3 .div3-sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.footer .container .row .div3-sub h4{
+    font-size: 19px;
+    font-weight: 350;
+    margin-top: 20px;
+}
+.footer .container .row .div3-sub .email{
+    padding: 9px 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.295);
+} 
+.footer .container .row .div3-sub .submit{
+    padding: 6px 76px;
+    margin-top: 15px;
+    background-color:rgba(0, 0, 255, 0.486);
+    border: none;  
+    color: white;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.footer .container .r2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .container .r2 p{
+    margin-top: 120px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.61);
+}
+/*==========================================================
+                            END footer              */
+@media only screen and (max-width:576px){
+    .footer .container .row .div1{
+        margin-top: 35px;
+    }
+    .footer .container .row .div3{
+        margin-top: 35px;
+    }
+    section .container .row .divs{
+        margin-top: 30px;
+    }
+    section .container .row .all{
+        padding: 20px;
+    }
+}
+@media only screen and (min-width:577px) and (max-width:767px){
+    .footer .container .row .div1{
+        margin-top: 35px;
+    }
+    .footer .container .row .div3{
+        margin-top: 35px;
+    }
+    section .container .row .divs{
+        margin-top: 30px;
+    }
+    section .container .row .all{
+        padding: 20px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:992px){
+    .footer .container .row .div3{
+        margin-top: 35px;
+    }
+}

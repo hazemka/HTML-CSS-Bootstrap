@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="styleCart.css">
+    <title>HAZEM ALKATEB || Cart</title>
+</head>
+<body>
+    <!--
+        ==========================================================
+                            START NAVBAR
+    -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+        <a class="navbar-brand" href="index.html">Hazem Alkateb</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>  
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Catalogue</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">New Arrivals</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" value="">                    
+            </form>
+        </div>
+    </div>
+    </nav>
+<!--
+==========================================================
+                    END NAVBAR
+-->
+
+<!--
+==========================================================
+                    Start header
+-->
+<header>
+    <div class="container">
+        <div class="row">
+            <div>
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <strong>Cart</strong>
+            </div>
+        </div>
+    </div>
+</header>
+<!--
+==========================================================
+                    End header
+-->
+
+<!--
+==========================================================
+                    Start section 1 
+-->
+
+<section class="section1">
+<div class="container">
+<div class="row r1" style="overflow-x:auto;">
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Image</th>
+            <th class="col-lg-2 col-md-2 col-sm-2">Product</th>
+            <th class="col-lg-2 col-md-2 col-sm-2">Price</th>
+            <th class="col-lg-2 col-md-2 col-sm-2">Quantity</th>
+            <th class="col-lg-2 col-md-2 col-sm-2">Total</th>
+            <th class="col-lg-2 col-md-2 col-sm-2">Remove</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><img src="cloth_1.jpg" width="100%"></td>
+            <td><p class="title">Top Up T-Shirt</p></td>
+            <td><p>$49.00</p></td>
+            <td>
+                <div class="mb-5">
+                    <div class="input-group mb-3" style="max-width: 120px;">
+                        <div class="input-group-prepend">
+                            <button class="btn btn-outline-primary js-btn-minus" type="button">-</button>
+                        </div>
+                        <input type="text" class="form-control text-center" value="1" placeholder aria-label="Example text with button addon" aria-describedby="button-addon1">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-primary js-btn-plus" type="button">+</button>
+                        </div>
+                    </div>
+                </div>
+            </td>
+            <td><p>$49.00</p></td>
+            <td><a href="#" class="btn btn-primary btn-sm">X</a></td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td><img src="cloth_2.jpg" width="100%"></td>
+                <td><p class="title">Polo Shirt</p></td>
+                <td><p>$49.00</p></td>
+                <td>
+                    <div class="mb-5">
+                        <div class="input-group mb-3" style="max-width: 120px;">
+                            <div class="input-group-prepend">
+                                <button class="btn btn-outline-primary js-btn-minus" type="button">-</button>
+                            </div>
+                            <input type="text" class="form-control text-center" value="1" placeholder aria-label="Example text with button addon" aria-describedby="button-addon1">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-primary js-btn-plus" type="button">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td><p>$49.00</p></td>
+                <td><a href="#" class="btn btn-primary btn-sm">X</a></td>
+            </tr>
+        </tfoot>
+        </table>
+    </div>
+    <div class="row r2">
+        <div class="links-coupon col-lg-6 col-md-7">
+            <div class="link">
+                <a href="#" id="link-1">UPDATE CART</a>
+                <a href="shop.html" id="link-2">CONTINUE SHOPPING</a>
+            </div>
+            <div class="coupon">
+                <h4>Coupon</h4>
+                <p>Enter your coupon code if you have one.</p>
+                <div class="text">
+                <input type="text" name="coupon" value="" placeholder="Coupon Code">
+                <a href="#">APPLY COUPON</a>
+                </div>
+            </div>
+        </div>
+        <div class="cart-total col-lg-4 col-md-4">
+            <div class="title">
+                <h3>CART TOTALS</h3>
+            </div>
+            <hr>
+            <div class="details d1">
+                <div>
+                    <span>Subtotal</span>
+                </div>
+                <div>
+                    <span>$230.00</span>
+                </div>
+            </div>
+            <div class="details d2">
+                <div>
+                    <span>Total</span>
+                </div>
+                <div>
+                    <span>$230.00</span>
+                </div>
+            </div>
+            <div>
+                <a href="checkout.html">PROCEED TO CHECKOUT</a>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!--
+==========================================================
+                    End Section 1
+-->
+<hr>
+<!--
+==========================================================
+                    Start footer
+-->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="div1 col-lg-5 col-md-7 col-sm-12">
+                <h4>Navigations</h4>
+                <div class="div1-ul">
+                    <ul type="none">
+                        <li><a href="#">Sell online</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Shopping cart</a></li>
+                        <li><a href="#">Store builder</a></li>
+                    </ul>
+                    <ul type="none">
+                        <li><a href="#">Mobile commerce</a></li>
+                        <li><a href="#">Dropshipping</a></li>
+                        <li><a href="#">Website development</a></li>
+                    </ul>
+                    <ul type="none">
+                        <li><a href="#">Point of sale</a></li>
+                        <li><a href="#">Hardware</a></li>
+                        <li><a href="#">Software</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="div2 col-lg-3 col-md-4 col-sm-12">
+                <h4>Promo</h4>
+                <div>
+                    <a href="#"><img src="hero_1.jpg" width="100%"></a>
+                </div>
+                <div>
+                    <a href="#" class="under-img">Finding Your Perfect Shoes</a>
+                    <p>Promo from nuary 15 — 25, 2019</p>
+                </div>
+            </div>
+            <div class="div3 col-lg-3 col-md-4 col-sm-12">
+                <h4>Contact Info</h4>
+                <div class="div3-con">
+                <p>Address: AlRemal St. Gaza , Gaza , Palestine</p>
+                <p>Tel: <a href="#">+970 59 5100 360</a></p> 
+                <p id="email">Email: hazem22-1@hotmail.com</p>
+                </div>
+                <div class="div3-sub">
+                    <h4>Subscribe</h4>
+                    <input type="email" value="" placeholder="Email" class="email" required>
+                    <input type="submit" value="SEND" name="SEND" class="submit">
+                </div>
+            </div>
+        </div>
+        <div class="row r2">
+            <div style="text-align: center;">
+                <p>Copyright ©2021 All rights reserved | This template is made with LOVE by <a href="#">HAZEM AlKATEB</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--
+==========================================================
+                    End footer
+-->
+<script src="jquery-3.5.1.slim.min.js"></script>
+<script src="popper.min.js"></script>
+<script src="bootstrap.min.js"></script>
+</body>
+</html>
